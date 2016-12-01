@@ -44,7 +44,6 @@ const incr = (horizontal, amount) => {
   }
 }
 
-
 for (instruction of inputArray) {
   instruction = instruction.trim()
   let direction = instruction.slice(0,1)
