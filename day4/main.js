@@ -1,5 +1,5 @@
 const fs = require('fs')
-input = fs.readFileSync(process.argv[2], { encoding: 'utf-8' })
+const input = fs.readFileSync(process.argv[2], { encoding: 'utf-8' })
 const frequency = (el, arr) => arr.filter(e => e == el).length
 
 const inputArray = input.trim().split('\n')
